@@ -82,20 +82,21 @@ Q(t+1)=JQ(t)′+K′Q(t)Q(t+1)=JQ(t)′+K′Q(t)
 ### T Flip-Flop
 T flip-flop is the simplified version of JK flip-flop. It is obtained by connecting the same input ‘T’ to both inputs of JK flip-flop. It operates with only positive clock transitions or negative clock transitions. The circuit diagram of T flip-flop is shown in the following figure.
 
-![image](https://user-images.githubusercontent.com/36288975/167911534-5f3c445d-bc68-46e2-9a9c-7efce5febc60.png)
 
+![Screenshot 2023-11-28 101517](https://github.com/MangariDeeraj/Experiment--05-Implementation-of-flipflops-using-verilog/assets/149365485/ab501ff6-0298-4b91-8d21-a8593a60b260)
 
 
 This circuit has single input T and two outputs Qtt & Qtt’. The operation of T flip-flop is same as that of JK flip-flop. Here, we considered the inputs of JK flip-flop as J = T and K = T in order to utilize the modified JK flip-flop for 2 combinations of inputs. So, we eliminated the other two combinations of J & K, for which those two values are complement to each other in T flip-flop.
 The following table shows the state table of T flip-flop.
 
+![Screenshot 2023-11-28 101536](https://github.com/MangariDeeraj/Experiment--05-Implementation-of-flipflops-using-verilog/assets/149365485/c8e15f5b-61a2-4dc3-bfa7-cae45c2b2ffa)
 
 
 Here, Qtt & Qt+1t+1 are present state & next state respectively. So, T flip-flop can be used for one of these two functions such as Hold, & Complement of present state based on the input conditions, when positive transition of clock signal is applied. The following table shows the characteristic table of T flip-flop.
 Inputs	Present State	Next State
 
 
-![image](https://user-images.githubusercontent.com/36288975/167909015-53aa9450-3f28-4202-887a-79d88228f8a0.png)
+![Screenshot 2023-11-28 101638](https://github.com/MangariDeeraj/Experiment--05-Implementation-of-flipflops-using-verilog/assets/149365485/ad762a8f-e6f2-4412-979b-c19b8aba811c)
 
 From the above characteristic table, we can directly write the next state equation as
 Q(t+1)=T′Q(t)+TQ(t)′
