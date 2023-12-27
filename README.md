@@ -16,7 +16,7 @@ The following table shows the state table of SR flip-flop.
 
 
 
-Here, Qtt & Qt+1t+1 are present state & next state respectively. So, SR flip-flop can be used for one of these three functions such as Hold, Reset & Set based on the input conditions, when positive transition of clock signal is applied. The following table shows the characteristic table of SR flip-flop.
+Here, Qtt & Qt+1t+1 are present state & next state respectively. So, SR flip-flop can be used for one of these three functions such as Hold, Reset & Set based on the input conditions, when positive transition of clock signal is applied. The following table shows c the characteristic table of SR flip-flop.
 Present Inputs	Present State	Next State
 
 ![Screenshot 2023-11-27 214055](https://github.com/MangariDeeraj/Experiment--05-Implementation-of-flipflops-using-verilog/assets/149365485/d85c167a-8c52-43eb-b110-015cf03983c3)
